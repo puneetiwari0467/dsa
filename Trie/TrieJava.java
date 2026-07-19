@@ -1,7 +1,7 @@
 class Node{
     Node links[];
     int eow;//endOfWord
-    int cp;//commonPrefix
+    int cp;//countOfPrefix
     Node(){
         links=new Node[26];
         for(int i=0;i<26;i++){
